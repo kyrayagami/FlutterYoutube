@@ -12,10 +12,17 @@ Flutter Plugin to play youtube Videos
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
+  # s.source           = { :git => 'https://github.com/jatin19121990/XCDYouTubeKit', :branch => 'hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'XCDYouTubeKit'
+  # s.dependency 'XCDYouTubeKit'
+  s.dependency 'XCDYouTubeKit' #, :git => 'https://github.com/kyrayagami/XCDYouTubeKit.git', :branch => 'master' #, :branch => 'hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525'
+  # s.dependency 'XCDYouTubeKit', :podspec => 'https://github.com/kyrayagami/XCDYouTubeKit/blob/master/XCDYouTubeKit.podspec', :branch => 'master' #, :branch => 'hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525'
+  # s.dependency 'XCDYouTubeKit', :path => '/Users/adair01/Documents/Flutter_plugins/XCDYouTubeKit-master/XCDYouTubeKit.podspec' #'~/Documents/AFNetworking/AFNetworking.podspec'
+  # s.dependency 'XCDYouTubeKit', :podspec => 'https://github.com/jatin19121990/XCDYouTubeKit/blob/hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525/XCDYouTubeKit.podspec' #, :branch => 'hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525'
+                                        #  https://github.com/jatin19121990/XCDYouTubeKit/blob/hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code%3D-3-%23525/XCDYouTubeKit.podspec
+  # s.dependency "MyPrivateSDK", :podspec => "https://raw.githubusercontent.com/MyPrivateSDK/master/MyPrivateSDK.podspec"
   s.ios.deployment_target = '8.0'
 end
 
