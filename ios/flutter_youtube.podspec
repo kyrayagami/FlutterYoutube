@@ -23,6 +23,6 @@ Flutter Plugin to play youtube Videos
   # s.dependency 'XCDYouTubeKit', :podspec => 'https://github.com/jatin19121990/XCDYouTubeKit/blob/hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525/XCDYouTubeKit.podspec' #, :branch => 'hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525'
                                         #  https://github.com/jatin19121990/XCDYouTubeKit/blob/hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code%3D-3-%23525/XCDYouTubeKit.podspec
   # s.dependency "MyPrivateSDK", :podspec => "https://raw.githubusercontent.com/MyPrivateSDK/master/MyPrivateSDK.podspec"
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 end
 
